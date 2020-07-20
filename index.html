@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idealgewichtsrechner</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <article>
+        <h1>Idealgewichtsrechner</h1>
+        <form action="">
+            <label for="">Körpergröße (in cm)</label>
+            <br>
+            <input type="number" name="" id="height">
+            <br>
+            <label for="">Alter</label>
+            <br>
+            <input type="number" name="" id="age">
+            <br>
+            <label for="">Körperbau</label>
+            <br>
+            <input type="radio" name="bau" id="breit" checked>
+            <label for="">breit</label>
+            <input type="radio" name="bau" id="schmal">
+            <label for="">schmal</label>
+            <br>
+            <input type="button" value="Rechne" onclick="calc()">
+            <div>
+                <h3 id="result"></h3>
+            </div>
+        </form>
+    </article>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

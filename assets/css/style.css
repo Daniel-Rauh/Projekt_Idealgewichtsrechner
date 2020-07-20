@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(35deg, #3b3b3b 0%, #c0c0c0 50%);
+}
+article{
+    width: 450px;
+    background: linear-gradient(35deg, #346b81 0%, #579fc0 50%);
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+}
+input{
+    margin: 10px;
+}
+input:last-of-type{
+    background: #3b3b3b;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+}
+#result{
+    height: 30px;
+}
